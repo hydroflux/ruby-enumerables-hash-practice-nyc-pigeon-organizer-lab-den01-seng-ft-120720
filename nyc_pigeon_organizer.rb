@@ -16,6 +16,7 @@ def nyc_pigeon_organizer(data)
             if !final_array[name][key][nested_key]
               final_array[name][key] << nested_key.to_s
               binding.pry
+            end
           end
         end
         nested_key.to_s
