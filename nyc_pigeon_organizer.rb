@@ -6,5 +6,4 @@ def nyc_pigeon_organizer(data)
     a[k] = v + 3
   end
   binding.pry
-  end
 end
