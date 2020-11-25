@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
     v[k] = k.to_s
     puts v[k]
   binding.pry
+end
   
   
   
