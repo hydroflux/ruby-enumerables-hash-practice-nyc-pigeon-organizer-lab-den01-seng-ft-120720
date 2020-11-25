@@ -7,7 +7,8 @@ def nyc_pigeon_organizer(data)
     value.each do |nested_key, names|
       # binding.pry
       names.each_do |name|
-        name =>
+        binding.pry
+      end
     end
    end
    binding.pry
