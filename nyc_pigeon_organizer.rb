@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
           final_array[name][key] = []
         end
         final_array[name][key] << nested_key.to_s
-        binding.pry
+        # binding.pry
       end
     end
    end
