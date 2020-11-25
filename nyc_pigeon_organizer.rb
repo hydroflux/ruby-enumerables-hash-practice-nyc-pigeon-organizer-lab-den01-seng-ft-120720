@@ -5,8 +5,8 @@ def nyc_pigeon_organizer(data)
   data[:color][:purple].each_with_object do |k, v|
     v[k] = k.to_s
     puts v[k]
-  binding.pry
-end
+    binding.pry
+  end
   
   
   
