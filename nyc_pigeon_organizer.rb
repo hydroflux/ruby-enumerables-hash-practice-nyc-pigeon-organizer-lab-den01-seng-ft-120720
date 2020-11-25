@@ -7,10 +7,4 @@ def nyc_pigeon_organizer(data)
     v = new_key
     binding.pry
   end
-  
-  
-  
-  
-  
-  
 end
