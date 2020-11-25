@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
     # binding.pry
     value.each do |nested_key, names|
       binding.pry
+    end
    end
    binding.pry
 end
