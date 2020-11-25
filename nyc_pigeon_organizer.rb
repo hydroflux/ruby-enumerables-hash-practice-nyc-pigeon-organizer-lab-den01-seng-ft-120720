@@ -2,9 +2,9 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   # Create a list of all pigeon names
-  data[:color][:purple].each_with_object({}) do |k, v|
-    v[k] = k.to_s
-    puts v[k]
+  data[:color].values.each_with_object({}) do |k, v|
+    v[k] = value
+    v = key
     binding.pry
   end
   
