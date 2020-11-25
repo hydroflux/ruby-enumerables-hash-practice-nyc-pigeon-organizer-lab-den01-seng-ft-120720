@@ -10,16 +10,11 @@ def nyc_pigeon_organizer(data)
         # binding.pry
         if !final_array[name]
           final_array[name] = {}
-          # binding.pry
-          if !final_array[name][key]
-            final_array[name][key] = []
-            if !final_array[name][key][nested_key]
-              final_array[name][key] << nested_key.to_s
-              binding.pry
-            end
-          end
         end
-        nested_key.to_s
+        if !final_array[name][key]
+          final_array[name][key] = []
+        end
+        final_array[name][key] << nested_key.to_s
       end
     end
    end
